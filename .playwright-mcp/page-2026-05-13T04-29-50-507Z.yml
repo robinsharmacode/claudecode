@@ -1,0 +1,124 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e52]:
+            - generic [ref=e55]: Create a user profile card with an avatar, name, bio, and follow button
+            - img [ref=e58]
+          - generic [ref=e61]:
+            - img [ref=e64]
+            - generic [ref=e69]:
+              - generic [ref=e72]: str_replace_editor
+              - separator [ref=e73]
+              - generic [ref=e74]:
+                - paragraph [ref=e75]: "Done! I've created a user profile card with:"
+                - list [ref=e76]:
+                  - listitem [ref=e77]:
+                    - strong [ref=e78]: Avatar
+                    - text: ": Circular image with a blue border"
+                  - listitem [ref=e79]:
+                    - strong [ref=e80]: Name
+                    - text: ": \"Sarah Anderson\" displayed prominently"
+                  - listitem [ref=e81]:
+                    - strong [ref=e82]: Bio
+                    - text: ": A short description with emoji"
+                  - listitem [ref=e83]:
+                    - strong [ref=e84]: Follow Button
+                    - text: ": Interactive button that toggles between \"Follow\" and \"Following\" states with color changes"
+                - paragraph [ref=e85]: The card is centered on the page with a clean, modern design using Tailwind CSS.
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [ref=e35]
+          - tab "Code" [active] [selected] [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - generic [ref=e87]:
+        - generic [ref=e95] [cursor=pointer]:
+          - img [ref=e96]
+          - generic [ref=e101]: App.jsx
+        - separator [ref=e102]
+        - code [ref=e107]:
+          - generic [ref=e108]:
+            - generic [ref=e110]:
+              - generic [ref=e113]: "1"
+              - generic [ref=e115]: "2"
+              - generic [ref=e116]:
+                - generic [ref=e117] [cursor=pointer]: 
+                - generic [ref=e118]: "3"
+              - generic [ref=e120]: "4"
+              - generic [ref=e123]: "5"
+              - generic [ref=e124]:
+                - generic [ref=e125] [cursor=pointer]: 
+                - generic [ref=e126]: "6"
+              - generic [ref=e128]: "7"
+              - generic [ref=e130]: "8"
+              - generic [ref=e132]: "9"
+              - generic [ref=e133]:
+                - generic [ref=e134] [cursor=pointer]: 
+                - generic [ref=e135]: "10"
+              - generic [ref=e136]:
+                - generic [ref=e137] [cursor=pointer]: 
+                - generic [ref=e138]: "11"
+              - generic [ref=e140]:
+                - generic [ref=e141] [cursor=pointer]: 
+                - generic [ref=e142]: "12"
+              - generic [ref=e145]: "13"
+              - generic [ref=e146]:
+                - generic [ref=e147] [cursor=pointer]: 
+                - generic [ref=e148]: "14"
+              - generic [ref=e149]:
+                - generic [ref=e150] [cursor=pointer]: 
+                - generic [ref=e151]: "15"
+              - generic [ref=e153]: "16"
+              - generic [ref=e157]: "17"
+              - generic [ref=e159]: "18"
+              - generic [ref=e162]: "19"
+              - generic [ref=e164]: "20"
+              - generic [ref=e166]: "21"
+              - generic [ref=e168]: "22"
+              - generic [ref=e169]:
+                - generic [ref=e170] [cursor=pointer]: 
+                - generic [ref=e171]: "23"
+              - generic [ref=e174]: "24"
+            - generic [ref=e306]:
+              - generic [ref=e308]: "import { useState } from 'react';"
+              - generic [ref=e311]: "export default function App() {"
+              - generic [ref=e313]: const [isFollowing, setIsFollowing] = useState
+              - generic [ref=e315]: (false);
+              - generic [ref=e318]: "const handleFollowClick = () => {"
+              - generic [ref=e320]: setIsFollowing(!isFollowing);
+              - generic [ref=e322]: "};"
+              - generic [ref=e325]: return (
+              - generic [ref=e327]: <div className="flex items-center justify-center
+              - generic [ref=e329]: min-h-screen bg-gray-100">
+              - generic [ref=e331]: <div className="bg-white rounded-lg shadow-lg
+              - generic [ref=e333]: p-8 w-full max-w-sm">
+              - generic [ref=e335]: "{/* Avatar */}"
+              - generic [ref=e337]: <div className="flex justify-center mb-6">
+              - generic [ref=e339]: <img
+              - generic [ref=e341]: src="https://images.unsplash.com/
+              - generic [ref=e343]: photo-1494790108377-be9c29b29330?w=400&
+              - generic [ref=e345]: h=400&fit=crop"
+              - generic [ref=e347]: alt="User Avatar"
+              - generic [ref=e349]: className="w-24 h-24 rounded-full
+              - generic [ref=e351]: object-cover border-4 border-blue-500"
+              - generic [ref=e353]: />
+              - generic [ref=e355]: </div>
+              - generic [ref=e358]: "{/* Name */}"
+              - generic [ref=e360]: <h2 className="text-2xl font-bold text-center
+              - generic [ref=e362]: text-gray-800 mb-2">
+              - generic [ref=e364]: Sarah Anderson
+            - textbox "Editor content" [ref=e366]
+  - alert [ref=e51]
+  - generic [ref=e367]:
+    - alert
+    - alert
